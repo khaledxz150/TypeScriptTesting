@@ -1,0 +1,21 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "ES2023",
+    "outDir": "wwwroot/js",
+    "types": [ "jquery", "bootstrap" ],
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ],
+  "include": [
+    "scripts/**/*",
+    "Views/**/Scripts/**/*"
+  ]
+}
